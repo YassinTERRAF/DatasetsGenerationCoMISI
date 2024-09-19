@@ -33,3 +33,43 @@ Make sure you have the following dependencies installed:
 
 ```bash
 pip install numpy pandas librosa torchaudio tqdm opencv-python-headless pyroomacoustics keras_facenet speechbrain mtcnn
+```
+### Generating the GRID Dataset
+To generate the GRID dataset with multimodal audio-visual distortions:
+1. Navigate to the repository folder:
+cd /home/yassin.terraf/datasets_generation_CoMISI
+2. Run the dataset_generation_grid.py script:
+python dataset_generation_grid.py
+
+Input: Neutral audio-visual data from the GRID dataset.
+Output: Noisy and distorted audio-visual data saved under the specified output_path.
+
+### Generating the RAVDESS Dataset
+To generate the RAVDESS dataset with multimodal audio-visual distortions:
+1. Navigate to the repository folder:
+cd /home/yassin.terraf/datasets_generation_CoMISI
+Run the dataset_generation_ravdess.py script:
+2. python dataset_generation_ravdess.py
+
+Input: Emotional audio-visual data from the RAVDESS dataset.
+Output: Noisy and distorted audio-visual data saved under the specified output_path.
+
+
+## Citation
+If you find our work useful in your research, please consider citing:
+
+**Yassin Terraf, Youssef Iraqi.** "CoMISI: Multimodal Speaker Identification in Diverse Audio-Visual Conditions through Cross-Modal Interaction." *Proceedings of the International Conference on Neural Information Processing (ICONIP)*, 2024. (Accepted for publication).
+
+  
+## Contributions
+
+Contributions to CoMISI are welcome. Please submit pull requests or open issues to discuss proposed changes.
+
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+  
+## Contact
+For questions or feedback related to CoMISI, please contact us at yassin.terraf@um6p.ma.
