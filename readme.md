@@ -37,7 +37,7 @@ pip install numpy pandas librosa torchaudio tqdm opencv-python-headless pyroomac
 ### Generating the GRID Dataset
 To generate the GRID dataset with multimodal audio-visual distortions:
 1. Navigate to the repository folder:
-cd /home/yassin.terraf/datasets_generation_CoMISI
+cd .../datasets_generation_CoMISI
 2. Run the dataset_generation_grid.py script:
 python dataset_generation_grid.py
 
@@ -47,7 +47,7 @@ Output: Noisy and distorted audio-visual data saved under the specified output_p
 ### Generating the RAVDESS Dataset
 To generate the RAVDESS dataset with multimodal audio-visual distortions:
 1. Navigate to the repository folder:
-cd /home/yassin.terraf/datasets_generation_CoMISI
+cd .../datasets_generation_CoMISI
 Run the dataset_generation_ravdess.py script:
 2. python dataset_generation_ravdess.py
 
